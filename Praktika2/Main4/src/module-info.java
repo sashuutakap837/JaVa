@@ -4,7 +4,6 @@ module Main4 {
 	package com.company;
 
 	public class Main {
-
 	    private   static  void printMatrix(int[][]matrix){
 	        for (int i=0;i<matrix[0].length;i++) {
 	            for (int j = 0; j < matrix[0].length; j++) {
@@ -37,8 +36,6 @@ module Main4 {
 	            }
 	        }
 	        System.out.println(product);
-
-
 	    }
 	}
 }
