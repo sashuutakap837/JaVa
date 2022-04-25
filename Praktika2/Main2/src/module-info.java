@@ -50,8 +50,6 @@ module Main2 {
 	        }
 	        x=sortVector(x);
 	        printArray(x);
-
 	    }
 	}
-
 }
