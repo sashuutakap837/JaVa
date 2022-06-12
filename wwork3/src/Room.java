@@ -1,4 +1,14 @@
-
+// Вариант 11 Продажа путевок.
+//cod – код путевки
+//surname – фамилия клиента
+//name – название пансионата
+//number – номер 
+//type – вид жилья 
+//date1 – дата заезда
+//date2 – дата выезда
+//quantity – количество человек
+//price - цена
+package re;
 public class Room {
 	public class Room {
 		private int cod;
@@ -20,7 +30,6 @@ public class Room {
 		this.data2=data2;
 		this.quantity=quantity;
 		this.price=price;
-
 		}
 		public int getcod(){
 		return cod;
@@ -49,35 +58,29 @@ public class Room {
 		public int getdata1(){
 		return data1;
 		}
-
 		public void setdata1(int data1){
 		this.data1=data1;
 		}
 		public int getdata2(){
 		return data2;
 		}
-
 		public void setdata2(int data2){
 		this.data2=data2;
 		}
 		public int getquantity(){
 		return quantity;
 		}
-
 		public void setquantity(int quantity) {
 		this.quantity=quantity;
 		}
 		public int getprice(){
 		return price;
 		}
-
 		public void setprice(int price) {
 		this.price=price;
 		}
-
 		public String toString(){
-		return "��� �������-"+cod+"\n"+"������� �������-"+surname+"\n"+"�������� ����������-"+name +"\n"+"�����-"+number+"\n"+"��� �����-"+type+"\n"+"���� ������-"+data1+"\n"+"���� ������-"+data2+"\n"+"���������� �������-"+quantity+"\n"+"����-"+price+"\n";
-		}
+		return "код путевки-"+cod+"\n"+"фамилия клиента-"+surname+"\n"+"название пансионата-"+name +"\n"+"номер-"+number+"\n"+"вид жилья-"+type+"\n"+"дата заезда-"+data1+"\n"+"дата выезда-"+data2+"\n"+"количество человек-"+quantity+"\n"+"цена-"+price+"\n";
 		} 
-
+	}
 }
